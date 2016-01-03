@@ -7,9 +7,9 @@ Just use the remote URL which contains all wallpapers and choose the correct ima
 
 ## Installation
 
-1. clone / copy the content in a desired folder (e.g. /home/<user>/Tools/)
+1. clone / copy the content in a desired folder (e.g. /home/&lt;user&gt;/Tools/)
 2. Setup you first initial script at the bottom end of wChanger.sh
-  * set _imgPath_ variable (e.g. /home/<user>/Tools/wChanger)
+  * set _imgPath_ variable (e.g. /home/&lt;user&gt;/Tools/wChanger)
   * set _imgSrc_ equal to the link from which the wallpaper should be retrieved from
   * choose image grab extenstion (e.g. _grabur.sh_)
   * call _downloadSource_ (not needed for local image repository)
@@ -18,7 +18,7 @@ Just use the remote URL which contains all wallpapers and choose the correct ima
 3. Setup a crontab rule 
 ```bash
 $> crontab -e
-   e.g.: 59 * * * * /home/<user>/Tools/wChanger/wChanger.sh
+   e.g.: 59 * * * * /home/&lt;user&gt;/Tools/wChanger/wChanger.sh
 ```
 
 
