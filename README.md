@@ -18,7 +18,7 @@ Just use the remote URL which contains all wallpapers and choose the correct ima
 3. Setup a crontab rule 
 ```bash
 $> crontab -e
-   e.g.: 59 * * * * /home/&lt;user&gt;/Tools/wChanger/wChanger.sh
+   e.g.: 59 * * * * /home/<user>/Tools/wChanger/wChanger.sh
 ```
 
 
