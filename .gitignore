@@ -1,0 +1,12 @@
+# ignore generated html files,
+*.png
+*.jpg
+*.gif
+*.bmp
+# except wChanger-workflow.png which is maintained by hand
+!wChanger-workflow.png
+
+# ignore eclipse metadata
+.buildpath
+.project
+
